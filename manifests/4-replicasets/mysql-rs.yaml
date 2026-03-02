@@ -22,7 +22,7 @@ spec:
         - name: ecr-secret
       containers:
         - name: mysql
-          image: 820750109430.dkr.ecr.us-east-1.amazonaws.com/clo835-mysql:latest
+          image: 820750109430.dkr.ecr.us-east-1.amazonaws.com/clo835-mysqlv2
           ports:
             - containerPort: 3306
           env:
